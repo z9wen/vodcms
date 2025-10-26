@@ -1,0 +1,25 @@
+# Editor and IDE files
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+
+# Dependencies
+node_modules/
+
+# Node.js (for frontend)
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# Go build files
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+.env
+backend/cmsdetails.json
