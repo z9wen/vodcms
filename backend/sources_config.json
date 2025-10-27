@@ -1,0 +1,35 @@
+{
+  "updated_at": "2025-10-27 15:42:46",
+  "sources": [
+    {
+      "name": "豪华资源",
+      "base_url": "https://hhzyapi.com/api.php/provide/vod/from/hhm3u8/at/json",
+      "key": "hhzy",
+      "enabled": true
+    },
+    {
+      "name": "光速资源",
+      "base_url": "https://api.guangsuapi.com/api.php/provide/vod/from/gsm3u8/at/json",
+      "key": "guangsuzy",
+      "enabled": true
+    },
+    {
+      "name": "索尼资源",
+      "base_url": "https://suoniapi.com/api.php/provide/vod/from/snm3u8/at/json",
+      "key": "snzy",
+      "enabled": true
+    },
+    {
+      "name": "红牛资源",
+      "base_url": "https://www.hongniuzy2.com/api.php/provide/vod/from/hnm3u8/at/json/",
+      "key": "hnzy",
+      "enabled": true
+    },
+    {
+      "name": "新浪资源",
+      "base_url": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/from/xlm3u8/at/json",
+      "key": "xlzy",
+      "enabled": true
+    }
+  ]
+}

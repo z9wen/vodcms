@@ -1,0 +1,229 @@
+{
+  "updated_at": "2025-10-27 12:30:00",
+  "standard_categories": {
+    "1": {
+      "id": 1,
+      "name": "电影",
+      "subcategories": {
+        "101": "动作片",
+        "102": "喜剧片",
+        "103": "爱情片",
+        "104": "科幻片",
+        "105": "恐怖片",
+        "106": "剧情片",
+        "107": "战争片",
+        "108": "悬疑片",
+        "109": "犯罪片",
+        "110": "奇幻片",
+        "111": "灾难片",
+        "112": "伦理片",
+        "113": "4K电影",
+        "114": "Netflix电影",
+        "115": "邵氏电影"
+      }
+    },
+    "2": {
+      "id": 2,
+      "name": "电视剧",
+      "subcategories": {
+        "201": "国产剧",
+        "202": "港澳剧",
+        "203": "台湾剧",
+        "204": "欧美剧",
+        "205": "韩剧",
+        "206": "日剧",
+        "207": "泰剧",
+        "208": "海外剧"
+      }
+    },
+    "3": {
+      "id": 3,
+      "name": "综艺",
+      "subcategories": {
+        "301": "大陆综艺",
+        "302": "港台综艺",
+        "303": "日韩综艺",
+        "304": "欧美综艺"
+      }
+    },
+    "4": {
+      "id": 4,
+      "name": "动漫",
+      "subcategories": {
+        "401": "国产动漫",
+        "402": "日韩动漫",
+        "403": "欧美动漫",
+        "404": "港台动漫",
+        "405": "动画片"
+      }
+    },
+    "5": {
+      "id": 5,
+      "name": "纪录片",
+      "subcategories": {}
+    },
+    "6": {
+      "id": 6,
+      "name": "短剧",
+      "subcategories": {
+        "601": "爽文短剧",
+        "602": "女频恋爱",
+        "603": "反转爽剧",
+        "604": "古装仙侠",
+        "605": "年代穿越",
+        "606": "脑洞悬疑",
+        "607": "现代都市"
+      }
+    }
+  },
+  "source_mappings": {
+    "hhzy": {
+      "name": "豪华资源",
+      "mappings": [
+        {"source_type_id": 2, "source_name": "电影", "standard_id": 1, "standard_sub_id": null},
+        {"source_type_id": 9, "source_name": "动作片", "standard_id": 1, "standard_sub_id": 101},
+        {"source_type_id": 11, "source_name": "喜剧片", "standard_id": 1, "standard_sub_id": 102},
+        {"source_type_id": 10, "source_name": "爱情片", "standard_id": 1, "standard_sub_id": 103},
+        {"source_type_id": 12, "source_name": "科幻片", "standard_id": 1, "standard_sub_id": 104},
+        {"source_type_id": 13, "source_name": "恐怖片", "standard_id": 1, "standard_sub_id": 105},
+        {"source_type_id": 14, "source_name": "剧情片", "standard_id": 1, "standard_sub_id": 106},
+        {"source_type_id": 15, "source_name": "战争片", "standard_id": 1, "standard_sub_id": 107},
+        {"source_type_id": 35, "source_name": "悬疑片", "standard_id": 1, "standard_sub_id": 108},
+        {"source_type_id": 36, "source_name": "犯罪片", "standard_id": 1, "standard_sub_id": 109},
+        {"source_type_id": 37, "source_name": "奇幻片", "standard_id": 1, "standard_sub_id": 110},
+        {"source_type_id": 34, "source_name": "灾难片", "standard_id": 1, "standard_sub_id": 111},
+        {"source_type_id": 8, "source_name": "伦理片", "standard_id": 1, "standard_sub_id": 112},
+        {"source_type_id": 1, "source_name": "电视剧", "standard_id": 2, "standard_sub_id": null},
+        {"source_type_id": 20, "source_name": "内地剧", "standard_id": 2, "standard_sub_id": 201},
+        {"source_type_id": 4, "source_name": "香港剧", "standard_id": 2, "standard_sub_id": 202},
+        {"source_type_id": 28, "source_name": "台湾剧", "standard_id": 2, "standard_sub_id": 203},
+        {"source_type_id": 3, "source_name": "欧美剧", "standard_id": 2, "standard_sub_id": 204},
+        {"source_type_id": 5, "source_name": "韩剧", "standard_id": 2, "standard_sub_id": 205},
+        {"source_type_id": 6, "source_name": "日剧", "standard_id": 2, "standard_sub_id": 206},
+        {"source_type_id": 7, "source_name": "马泰剧", "standard_id": 2, "standard_sub_id": 207},
+        {"source_type_id": 27, "source_name": "综艺", "standard_id": 3, "standard_sub_id": null},
+        {"source_type_id": 30, "source_name": "大陆综艺", "standard_id": 3, "standard_sub_id": 301},
+        {"source_type_id": 32, "source_name": "港台综艺", "standard_id": 3, "standard_sub_id": 302},
+        {"source_type_id": 31, "source_name": "日韩综艺", "standard_id": 3, "standard_sub_id": 303},
+        {"source_type_id": 33, "source_name": "欧美综艺", "standard_id": 3, "standard_sub_id": 304},
+        {"source_type_id": 17, "source_name": "动漫", "standard_id": 4, "standard_sub_id": null},
+        {"source_type_id": 24, "source_name": "中国动漫", "standard_id": 4, "standard_sub_id": 401},
+        {"source_type_id": 25, "source_name": "日本动漫", "standard_id": 4, "standard_sub_id": 402},
+        {"source_type_id": 26, "source_name": "欧美动漫", "standard_id": 4, "standard_sub_id": 403},
+        {"source_type_id": 23, "source_name": "动画片", "standard_id": 4, "standard_sub_id": 405},
+        {"source_type_id": 16, "source_name": "记录片", "standard_id": 5, "standard_sub_id": null},
+        {"source_type_id": 38, "source_name": "短剧", "standard_id": 6, "standard_sub_id": null}
+      ]
+    },
+    "guangsuzy": {
+      "name": "光速资源",
+      "mappings": [
+        {"source_type_id": 1, "source_name": "电影", "standard_id": 1, "standard_sub_id": null},
+        {"source_type_id": 6, "source_name": "动作片", "standard_id": 1, "standard_sub_id": 101},
+        {"source_type_id": 7, "source_name": "喜剧片", "standard_id": 1, "standard_sub_id": 102},
+        {"source_type_id": 8, "source_name": "爱情片", "standard_id": 1, "standard_sub_id": 103},
+        {"source_type_id": 9, "source_name": "科幻片", "standard_id": 1, "standard_sub_id": 104},
+        {"source_type_id": 11, "source_name": "恐怖片", "standard_id": 1, "standard_sub_id": 105},
+        {"source_type_id": 10, "source_name": "剧情片", "standard_id": 1, "standard_sub_id": 106},
+        {"source_type_id": 12, "source_name": "战争片", "standard_id": 1, "standard_sub_id": 107},
+        {"source_type_id": 25, "source_name": "伦理片", "standard_id": 1, "standard_sub_id": 112},
+        {"source_type_id": 2, "source_name": "电视剧", "standard_id": 2, "standard_sub_id": null},
+        {"source_type_id": 13, "source_name": "大陆剧", "standard_id": 2, "standard_sub_id": 201},
+        {"source_type_id": 15, "source_name": "港澳剧", "standard_id": 2, "standard_sub_id": 202},
+        {"source_type_id": 22, "source_name": "台湾剧", "standard_id": 2, "standard_sub_id": 203},
+        {"source_type_id": 14, "source_name": "欧美剧", "standard_id": 2, "standard_sub_id": 204},
+        {"source_type_id": 16, "source_name": "韩剧", "standard_id": 2, "standard_sub_id": 205},
+        {"source_type_id": 21, "source_name": "日剧", "standard_id": 2, "standard_sub_id": 206},
+        {"source_type_id": 23, "source_name": "泰剧", "standard_id": 2, "standard_sub_id": 207},
+        {"source_type_id": 3, "source_name": "综艺", "standard_id": 3, "standard_sub_id": null},
+        {"source_type_id": 4, "source_name": "动漫", "standard_id": 4, "standard_sub_id": null},
+        {"source_type_id": 20, "source_name": "动漫电影", "standard_id": 4, "standard_sub_id": null},
+        {"source_type_id": 24, "source_name": "记录片", "standard_id": 5, "standard_sub_id": null},
+        {"source_type_id": 31, "source_name": "短剧", "standard_id": 6, "standard_sub_id": null}
+      ]
+    },
+    "snzy": {
+      "name": "索尼资源",
+      "mappings": [
+        {"source_type_id": 1, "source_name": "电影", "standard_id": 1, "standard_sub_id": null},
+        {"source_type_id": 6, "source_name": "动作片", "standard_id": 1, "standard_sub_id": 101},
+        {"source_type_id": 7, "source_name": "喜剧片", "standard_id": 1, "standard_sub_id": 102},
+        {"source_type_id": 8, "source_name": "爱情片", "standard_id": 1, "standard_sub_id": 103},
+        {"source_type_id": 9, "source_name": "科幻片", "standard_id": 1, "standard_sub_id": 104},
+        {"source_type_id": 10, "source_name": "恐怖片", "standard_id": 1, "standard_sub_id": 105},
+        {"source_type_id": 11, "source_name": "剧情片", "standard_id": 1, "standard_sub_id": 106},
+        {"source_type_id": 12, "source_name": "战争片", "standard_id": 1, "standard_sub_id": 107},
+        {"source_type_id": 62, "source_name": "4K电影", "standard_id": 1, "standard_sub_id": 113},
+        {"source_type_id": 71, "source_name": "Netflix电影", "standard_id": 1, "standard_sub_id": 114},
+        {"source_type_id": 70, "source_name": "邵氏电影", "standard_id": 1, "standard_sub_id": 115},
+        {"source_type_id": 55, "source_name": "伦理", "standard_id": 1, "standard_sub_id": 112},
+        {"source_type_id": 2, "source_name": "电视剧", "standard_id": 2, "standard_sub_id": null},
+        {"source_type_id": 13, "source_name": "国产剧", "standard_id": 2, "standard_sub_id": 201},
+        {"source_type_id": 17, "source_name": "港剧", "standard_id": 2, "standard_sub_id": 202},
+        {"source_type_id": 18, "source_name": "台剧", "standard_id": 2, "standard_sub_id": 203},
+        {"source_type_id": 14, "source_name": "欧美剧", "standard_id": 2, "standard_sub_id": 204},
+        {"source_type_id": 15, "source_name": "韩剧", "standard_id": 2, "standard_sub_id": 205},
+        {"source_type_id": 16, "source_name": "日剧", "standard_id": 2, "standard_sub_id": 206},
+        {"source_type_id": 19, "source_name": "泰剧", "standard_id": 2, "standard_sub_id": 207},
+        {"source_type_id": 23, "source_name": "海外剧", "standard_id": 2, "standard_sub_id": 208},
+        {"source_type_id": 72, "source_name": "Netflix自制剧", "standard_id": 2, "standard_sub_id": 204},
+        {"source_type_id": 3, "source_name": "综艺", "standard_id": 3, "standard_sub_id": null},
+        {"source_type_id": 25, "source_name": "大陆综艺", "standard_id": 3, "standard_sub_id": 301},
+        {"source_type_id": 27, "source_name": "港台综艺", "standard_id": 3, "standard_sub_id": 302},
+        {"source_type_id": 26, "source_name": "日韩综艺", "standard_id": 3, "standard_sub_id": 303},
+        {"source_type_id": 28, "source_name": "欧美综艺", "standard_id": 3, "standard_sub_id": 304},
+        {"source_type_id": 4, "source_name": "动漫", "standard_id": 4, "standard_sub_id": null},
+        {"source_type_id": 29, "source_name": "国产动漫", "standard_id": 4, "standard_sub_id": 401},
+        {"source_type_id": 30, "source_name": "日韩动漫", "standard_id": 4, "standard_sub_id": 402},
+        {"source_type_id": 31, "source_name": "欧美动漫", "standard_id": 4, "standard_sub_id": 403},
+        {"source_type_id": 44, "source_name": "港台动漫", "standard_id": 4, "standard_sub_id": 404},
+        {"source_type_id": 39, "source_name": "动画片", "standard_id": 4, "standard_sub_id": 405},
+        {"source_type_id": 20, "source_name": "纪录片", "standard_id": 5, "standard_sub_id": null},
+        {"source_type_id": 54, "source_name": "爽文短剧", "standard_id": 6, "standard_sub_id": 601},
+        {"source_type_id": 64, "source_name": "女频恋爱", "standard_id": 6, "standard_sub_id": 602},
+        {"source_type_id": 65, "source_name": "反转爽剧", "standard_id": 6, "standard_sub_id": 603},
+        {"source_type_id": 66, "source_name": "古装仙侠", "standard_id": 6, "standard_sub_id": 604},
+        {"source_type_id": 67, "source_name": "年代穿越", "standard_id": 6, "standard_sub_id": 605},
+        {"source_type_id": 68, "source_name": "脑洞悬疑", "standard_id": 6, "standard_sub_id": 606},
+        {"source_type_id": 69, "source_name": "现代都市", "standard_id": 6, "standard_sub_id": 607},
+        {"source_type_id": 73, "source_name": "擦边短剧", "standard_id": 6, "standard_sub_id": null}
+      ]
+    },
+    "xlzy": {
+      "name": "新浪资源",
+      "mappings": [
+        {"source_type_id": 1, "source_name": "电影", "standard_id": 1, "standard_sub_id": null},
+        {"source_type_id": 6, "source_name": "动作片", "standard_id": 1, "standard_sub_id": 101},
+        {"source_type_id": 12, "source_name": "喜剧片", "standard_id": 1, "standard_sub_id": 102},
+        {"source_type_id": 7, "source_name": "爱情片", "standard_id": 1, "standard_sub_id": 103},
+        {"source_type_id": 8, "source_name": "科幻片", "standard_id": 1, "standard_sub_id": 104},
+        {"source_type_id": 11, "source_name": "恐怖片", "standard_id": 1, "standard_sub_id": 105},
+        {"source_type_id": 10, "source_name": "剧情片", "standard_id": 1, "standard_sub_id": 106},
+        {"source_type_id": 9, "source_name": "战争片", "standard_id": 1, "standard_sub_id": 107},
+        {"source_type_id": 22, "source_name": "伦理片", "standard_id": 1, "standard_sub_id": 112},
+        {"source_type_id": 2, "source_name": "电视剧", "standard_id": 2, "standard_sub_id": null},
+        {"source_type_id": 13, "source_name": "大陆剧", "standard_id": 2, "standard_sub_id": 201},
+        {"source_type_id": 14, "source_name": "港澳剧", "standard_id": 2, "standard_sub_id": 202},
+        {"source_type_id": 15, "source_name": "台湾剧", "standard_id": 2, "standard_sub_id": 203},
+        {"source_type_id": 16, "source_name": "欧美剧", "standard_id": 2, "standard_sub_id": 204},
+        {"source_type_id": 18, "source_name": "韩剧", "standard_id": 2, "standard_sub_id": 205},
+        {"source_type_id": 20, "source_name": "日剧", "standard_id": 2, "standard_sub_id": 206},
+        {"source_type_id": 21, "source_name": "泰剧", "standard_id": 2, "standard_sub_id": 207},
+        {"source_type_id": 4, "source_name": "综艺", "standard_id": 3, "standard_sub_id": null},
+        {"source_type_id": 3, "source_name": "动漫", "standard_id": 4, "standard_sub_id": null},
+        {"source_type_id": 17, "source_name": "动漫电影", "standard_id": 4, "standard_sub_id": null},
+        {"source_type_id": 5, "source_name": "纪录片", "standard_id": 5, "standard_sub_id": null},
+        {"source_type_id": 24, "source_name": "短剧", "standard_id": 6, "standard_sub_id": null}
+      ]
+    },
+    "hnzy": {
+      "name": "红牛资源",
+      "mappings": [
+        {"source_type_id": 1, "source_name": "电影", "standard_id": 1, "standard_sub_id": null},
+        {"source_type_id": 2, "source_name": "电视剧", "standard_id": 2, "standard_sub_id": null},
+        {"source_type_id": 3, "source_name": "综艺", "standard_id": 3, "standard_sub_id": null},
+        {"source_type_id": 4, "source_name": "动漫", "standard_id": 4, "standard_sub_id": null}
+      ]
+    }
+  }
+}

@@ -1,0 +1,44 @@
+# 二进制文件
+vodcms
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# 测试文件
+*.test
+*.out
+
+# 依赖
+vendor/
+
+# 数据库文件
+*.db
+*.db-shm
+*.db-wal
+
+# 采集的JSON文件
+*_vod.json
+
+# 配置文件备份
+*.json.bak
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# 日志文件
+*.log
+
+# 临时文件
+tmp/
+temp/
+
